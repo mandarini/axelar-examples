@@ -1,0 +1,18 @@
+{
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": [
+          "test",
+          "deploy",
+          "execute",
+          "build",
+          "build-aptos"
+        ],
+        "accessToken": "MzI0Njc5NDktOTVhNy00Y2JmLWE2OTgtZDY1YWY2OTliODRmfHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "defaultBase": "main"
+}
